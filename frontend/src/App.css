@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+/* Header design front */
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.loginbutton {
+  text-decoration: none; /* Remove underline */
+  background: linear-gradient(135deg, #a395b2, #bacceb); /* Gradient background */
+  color:rgb(34, 17, 18); /* Text color */
+  padding: 15px 30px; /* Vertical and horizontal padding */
+  border: none; /* Remove default border */
+  border-radius: 25px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.loginbutton:hover {
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.loginbutton:active {
+  transform: translateY(0); /* Reset lift effect when clicked */
+}
+
+.header h1 {
+  flex:1;
+  margin: 0;
+  font-size: 2.5rem;
+}
+/* footer design front */
+.footer {
+  background-color: #282c34;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.footer p{
+  display:inline-block;
+  color:white;
+}
+.footer a{
+  color: lightblue;
+  text-decoration: none;
+}
+
+
+
+

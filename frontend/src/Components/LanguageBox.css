@@ -1,0 +1,21 @@
+
+.language-box {
+    padding: 20px;
+    margin: 20px 20px ;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    border: 2px solid #282c34;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .language-box:hover {
+    background-color:cadetblue;
+  }
+  
+  .language-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #282c34;
+  }
+  

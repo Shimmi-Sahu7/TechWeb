@@ -1,0 +1,99 @@
+/* CoursePage.css */
+
+/* General Styles */
+.course-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .course-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .course-header h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .course-header p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Section Styles */
+  .course-videos,
+  .course-pdfs {
+    margin-bottom: 40px;
+  }
+  
+  .course-videos h2,
+  .course-pdfs h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .course-videos ul,
+  .course-pdfs ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .course-videos li,
+  .course-pdfs li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .course-videos a,
+  .course-pdfs a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .course-videos a:hover,
+  .course-pdfs a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  /* Loading State */
+  .course-container > div {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+    padding: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .course-container {
+      width: 95%;
+    }
+  
+    .course-header h1 {
+      font-size: 28px;
+    }
+  
+    .course-header p {
+      font-size: 16px;
+    }
+  
+    .course-videos h2,
+    .course-pdfs h2 {
+      font-size: 24px;
+    }
+  
+    .course-videos li,
+    .course-pdfs li {
+      font-size: 14px;
+    }
+  }
+  

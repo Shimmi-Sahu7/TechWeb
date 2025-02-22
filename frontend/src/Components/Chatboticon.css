@@ -1,0 +1,17 @@
+/* ChatbotIcon.css */
+.chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .chatbot-icon:hover {
+    background-color: #0056b3; /* Change color on hover */
+  }
+  
